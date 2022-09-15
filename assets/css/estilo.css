@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+}
+
+header {
+    background-image: url(../img/castelo.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.padding-navbar {
+    padding: 4.5rem;
+}
+
+.banner-top {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-title-sobrenos {
+    margin-bottom: 0;
+    font-size: 1.15rem;
+}
+
+.card-header-borda {
+    border: 0px;
+}
+
+.banner-titulo {
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.banner-texto {
+    margin-bottom: 0;
+    font-size: 1.05rem;
+}
+
+.img-carousel {
+    object-fit: cover;
+}
+
+.titulo-depoimentos {
+    color: #fff;
+    text-align: center;
+    background-color: #0275D8;
+    margin-bottom: 0;
+}
+
+.grupo-radio,
+.contato-select {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.botao {
+    width: 10rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.fone{
+    color: #fff;
+    text-decoration: none;
+}
+
+.fone:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.email {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+.email:hover {
+    color: #fff;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.card-sobrenos {
+    margin-top: 0.25rem;
+}
+
+.card-sobrenos-first {
+    margin-top: 0.5rem;
+}
+
+@media(min-width: 768px){
+    .card-sobrenos-first {
+        margin-top: 0;
+    }
+}
+
+.margin-tablet {
+    margin-top: 3rem;
+}
+
+@media(min-width: 768px){
+    .margin-tablet {
+        margin-top: 0;
+    }
+}
